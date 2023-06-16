@@ -1,0 +1,63 @@
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+  }
+.main-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    background: hsl(0, 1%, 78%);
+    }
+.main-experience {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    background: hsl(0, 0%, 41%);
+    }    
+.main-certifications {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    background: hsl(0, 0%, 41%);
+    } 
+.main-assignment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    background: hsl(0, 0%, 41%);
+    } 
+form {
+    padding: 25px;
+    margin: 25px;
+    box-shadow: 0 2px 5px #f5f5f5; 
+    background: #f5f5f5; 
+    }
+input, textarea {
+    width: calc(100% - 18px);
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #aaaaaa;
+    outline: none;
+    }
+input::placeholder {
+    color: #666;
+    }
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #646566; 
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    }
+button:hover {
+    background: #f78437;
+    } 
+    @media (min-width: 568px) {
+    }
